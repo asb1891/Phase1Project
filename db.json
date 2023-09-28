@@ -1,0 +1,39 @@
+{
+    "Photos": [
+    {
+        "id": 1,
+        "name": "Finnegan",
+        "image":  "./Photos/image1.jpg",
+        "description": "Finnegan learning JavaScript!",
+        "comment": "We've been scouting him for years- Anon Google Exec"
+    },
+    {
+        "id": 2,
+        "name": "Finnegan",
+        "image": "./Photos/image2.jpg",
+        "description": "Finnegan looking like an idiot",
+        "comment": "He tries really hard - The Vet"
+    },
+    {
+        "id": 3,
+        "name": "Finnegan",
+        "image": "./Photos/image3.jpg",
+        "description": "Finnegan inspecting every detail of his ribbon",
+        "comment": "How can a creature look so cute and so dumb at the same time? - Me" 
+    },
+    {
+        "id": 4,
+        "name": "Finnegan",
+        "description": "Finnegan looking statuesque",
+        "image": "./Photos/image4.jpg",
+        "comment": "I've never seen anyone more beautiful in my life - Kim Kardashian "
+    },
+    {
+        "id": 5,
+        "name": "Finnegan",
+        "image": "./Photos/image5.jpg",
+        "description": "Finnegan is tired of being a cowboy",
+        "comment": "Somedays you gotta say 'Yee-naw' - Dolly Parton" 
+    }
+]
+} 

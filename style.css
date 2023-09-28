@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  text-align: center;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  padding: 0.5rem;
+  width: 100%;
+  color: white;
+  background-color: black; /* Update the background color to black */
+}
+
+#finnegan-photos {
+  display: flex;
+  overflow-x: auto;
+  margin: 1rem 0;
+  max-width: calc(100vw - 2rem);
+}
+
+#finnegan-photos img {
+  flex: 0 1 auto;
+  height: 150px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+#finnegan-photo img:last-child {
+  margin-right: 0;
+}
+
+#finnegan-detail {
+  position: relative;
+}
+
+.detail-image {
+  height: 350px;
+}
+.rating-box {
+  position: relative;
+  background: #000000;
+  padding: 25px 50px 35px;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.rating-box header {
+  font-size: 22px;
+  color: gold; /* Update the font color to white */
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.rating-box .stars {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+  .stars i {
+    color: #000000; /* Default star color (red) */
+    font-size: 35px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+
+  .stars .star:hover {
+    color: #FFD700
+  }
+
+  .comments {
+    /* Add styles for the comments container */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .old-comment {
+    /* Style for old comments */
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .comments p {
+    /* Style for all comments (old and new) */
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
